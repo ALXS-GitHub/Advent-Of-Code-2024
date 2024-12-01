@@ -1,4 +1,4 @@
-# ⛄ Advent Of Code 2024 ⛄
+# [⛄ Advent Of Code 2024 ⛄](https://adventofcode.com/2024)
 
 This year, I'm doing the advent of code using Rust.
 
@@ -40,6 +40,7 @@ The solutions for each day can be found in the following table. The time are bei
 
 | 🗓️Day🗓️ | ⛄Part 1 Solution⛄ | 🎁Part 2 Solution🎁 | ❄️Part 1 Time❄️ | 🎄Part 2 Time🎄 |
 |:-------:|:------------------:|:------------------:|:--------------:|:--------------:|
+| 🗓️1🗓️ | ⛄[/day1/src/part1.rs](/day1/src/part1.rs)⛄ | 🎁[/day1/src/part2.rs](/day1/src/part2.rs)🎁 | ❄️106.88 µs❄️ | 🎄122.75 µs🎄 |
 
 ## Template
 

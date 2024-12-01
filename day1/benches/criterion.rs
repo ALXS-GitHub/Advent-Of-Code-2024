@@ -1,5 +1,5 @@
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
-use {{project-name}}::{read_input, part1, part2};
+use day1::{read_input, part1, part2};
 
 fn benchmark_part1(c: &mut Criterion) {
     let input = read_input("input.txt");
