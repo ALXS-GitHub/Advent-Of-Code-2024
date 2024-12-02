@@ -24,6 +24,8 @@ If no arguments are provided, both parts will be run by default.
 
 In the output, you will see the answers and the time it took for each part to run.
 
+Make sure that the test input provided in the problem is set in the `inputtest.txt` file in the `day<day_number>` folder, and the real input is set in the `input.txt` file.
+
 ## Benchmarks
 
 By default, when running the code, a benchmark for the time will be run as well. However this approach is very simple and not very accurate. If you want to run a more accurate benchmark, you can use the following command:
@@ -34,6 +36,17 @@ cargo bench
 
 This will run benchmarks using the `criterion` crate and will give you a more accurate time for each part.
 
+## Tests
+
+Unit tests are provided in the `lib.rs` file for each day. Make sure you set the correct result for each test before running them.
+There are both test for the test input provided in the problem and for the real input.
+
+To run the tests, use the following command:
+
+```sh
+cargo test --lib
+```
+
 ## Solutions
 
 The solutions for each day can be found in the following table. The time are being calculated using the `criterion` crate for accurate benchmarks.
@@ -41,6 +54,7 @@ The solutions for each day can be found in the following table. The time are bei
 | 🗓️Day🗓️ | ⛄Part 1 Solution⛄ | 🎁Part 2 Solution🎁 | ❄️Part 1 Time❄️ | 🎄Part 2 Time🎄 |
 |:-------:|:------------------:|:------------------:|:--------------:|:--------------:|
 | 🗓️1🗓️ | ⛄[/day1/src/part1.rs](/day1/src/part1.rs)⛄ | 🎁[/day1/src/part2.rs](/day1/src/part2.rs)🎁 | ❄️106.88 µs❄️ | 🎄122.75 µs🎄 |
+| 🗓️2🗓️ | ⛄[/day2/src/part1.rs](/day2/src/part1.rs)⛄ | 🎁[/day2/src/part2.rs](/day2/src/part2.rs)🎁 | ❄️160.89 µs❄️ | 🎄368.50 µs🎄 |
 
 ## Template
 
