@@ -37,7 +37,6 @@ pub fn is_safe(report: &Vec<i64>) -> bool {
 
 pub fn is_safe_4(report: &Vec<i64>) -> bool {
     
-    let mut fails = 0; 
     for i in 0..report.len() {
 
         let mut report_copy = report.clone();
