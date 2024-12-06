@@ -1,4 +1,5 @@
 use std::collections::HashSet;
+use rayon::prelude::*;
 
 fn parse_input(input: &mut Vec<String>) -> (usize, usize) {
     for i in 0..input.len() {
@@ -99,17 +100,21 @@ pub fn part2(input: &Vec<String>) -> i64 {
         }
     }
 
-    let mut loop_positions = Vec::new();
-    for &(obs_x, obs_y) in &candidate_positions {
-        let mut new_input = input.clone();
-        // add obstacle
-        new_input[obs_x].replace_range(obs_y..obs_y + 1, "#");
+    // * parallel computing with rayon
+    let loop_positions: Vec<_> = candidate_positions.par_iter()
+        .filter_map(|&(obs_x, obs_y)| {
+            let mut new_input = input.clone();
+            // Add obstacle
+            new_input[obs_x].replace_range(obs_y..obs_y + 1, "#");
 
-        let loop_detected = detect_loop(&new_input, start_x, start_y, start_dir, &dirs);
-        if loop_detected {
-            loop_positions.push((obs_x, obs_y));
-        }
-    }
+            let loop_detected = detect_loop(&new_input, start_x, start_y, start_dir, &dirs);
+            if loop_detected {
+                Some((obs_x, obs_y))
+            } else {
+                None
+            }
+        })
+        .collect();
 
     loop_positions.len() as i64
 }
