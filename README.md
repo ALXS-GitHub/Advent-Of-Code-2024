@@ -49,7 +49,7 @@ cargo test --lib
 
 ## Solutions
 
-The solutions for each day can be found in the following table. The time are being calculated using the `criterion` crate for accurate benchmarks.
+The solutions for each day can be found in the following table. The time are being calculated using the `criterion` crate for accurate benchmarks. Note that most of the challenges are done without any parallelism, except for some days where I judged it was necessary to get faster results.
 
 | 🗓️Day🗓️ | ⛄Part 1 Solution⛄ | 🎁Part 2 Solution🎁 | ❄️Part 1 Time❄️ | 🎄Part 2 Time🎄 |
 |:-------:|:------------------:|:------------------:|:--------------:|:--------------:|
@@ -59,6 +59,7 @@ The solutions for each day can be found in the following table. The time are bei
 | 🗓️4🗓️ | ⛄[/day4/src/part1.rs](/day4/src/part1.rs)⛄ | 🎁[/day4/src/part2.rs](/day4/src/part2.rs)🎁 | ❄️6.4391 ms❄️ | 🎄4.3089 ms🎄 |
 | 🗓️5🗓️ | ⛄[/day5/src/part1.rs](/day5/src/part1.rs)⛄ | 🎁[/day5/src/part2.rs](/day5/src/part2.rs)🎁 | ❄️1.6586 ms❄️ | 🎄1.4714 ms🎄 |
 | 🗓️6🗓️ | ⛄[/day6/src/part1.rs](/day6/src/part1.rs)⛄ | 🎁[/day6/src/part2.rs](/day6/src/part2.rs)🎁 | ❄️590.36 µs❄️ | 🎄262.13 ms🎄 |
+| 🗓️7🗓️ | ⛄[/day7/src/part1.rs](/day7/src/part1.rs)⛄ | 🎁[/day7/src/part2.rs](/day7/src/part2.rs)🎁 | ❄️24.198 m❄️ | 🎄101.33 ms🎄 |
 
 ## Template
 
