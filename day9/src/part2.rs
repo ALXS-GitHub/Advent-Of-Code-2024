@@ -1,6 +1,4 @@
-use std::cmp::min;
 use std::collections::BTreeMap;
-
 
 fn parse_input(input_line: String) -> (i64, BTreeMap<i64, (i64, i64)>, BTreeMap<i64, i64>) {
     let mut total_space = 0;
@@ -31,7 +29,6 @@ fn parse_input(input_line: String) -> (i64, BTreeMap<i64, (i64, i64)>, BTreeMap<
 
 fn fill_free_spaces(line: String, spaces: &mut BTreeMap<i64, (i64, i64)>, free_spaces: &mut BTreeMap<i64, i64>, total_space: i64) -> BTreeMap<i64, (i64, i64)> {
     let mut chars: Vec<char> = line.chars().collect();
-    // let mut final_spaces = Vec::new();
     let mut id_counter: i64 = 0;
     let mut spaces_copy = spaces.clone();
 
@@ -44,11 +41,6 @@ fn fill_free_spaces(line: String, spaces: &mut BTreeMap<i64, (i64, i64)>, free_s
                 *space -= *value;
                 let new_indent = free_indent;
                 modif = (*space, *new_indent + *value, free_indent.clone());
-                // if *space == 0 {
-                //     free_spaces.remove(free_indent);
-                // } else {
-                //     free_spaces.insert(*free_indent, *space);
-                // }
                 spaces_copy.insert(*key, (*value, *new_indent));
                 break;
             }
