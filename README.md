@@ -63,6 +63,7 @@ The solutions for each day can be found in the following table. The time are bei
 | 🗓️8🗓️ | ⛄[/day8/src/part1.rs](/day8/src/part1.rs)⛄ | 🎁[/day8/src/part2.rs](/day8/src/part2.rs)🎁 | ❄️49.307 µs❄️ | 🎄56.206 µs🎄 |
 | 🗓️9🗓️ | ⛄[/day9/src/part1.rs](/day9/src/part1.rs)⛄ | 🎁[/day9/src/part2.rs](/day9/src/part2.rs)🎁 | ❄️342.47 µs❄️ | 🎄95.048 ms🎄 |
 | 🗓️10🗓️ | ⛄[/day10/src/part1.rs](/day10/src/part1.rs)⛄ | 🎁[/day10/src/part2.rs](/day10/src/part2.rs)🎁 | ❄️291.40 µs❄️ | 🎄258.84 µs🎄 |
+| 🗓️11🗓️ | ⛄[/day11/src/part1.rs](/day11/src/part1.rs)⛄ | 🎁[/day11/src/part2.rs](/day11/src/part2.rs)🎁 | ❄️6.0565 ms❄️ | 🎄18.222 ms🎄 |
 
 ## Template
 
