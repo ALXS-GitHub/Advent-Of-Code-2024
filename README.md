@@ -70,6 +70,7 @@ The solutions for each day can be found in the following table. The time are bei
 | 🗓️15🗓️ | ⛄[/day15/src/part1.rs](/day15/src/part1.rs)⛄ | 🎁[/day15/src/part2.rs](/day15/src/part2.rs)🎁 | ❄️326.39 µs❄️ | 🎄374.91 µs🎄 |
 | 🗓️16🗓️ | ⛄[/day16/src/part1.rs](/day16/src/part1.rs)⛄ | 🎁[/day16/src/part2.rs](/day16/src/part2.rs)🎁 | ❄️506.40 µs❄️ | 🎄1.7908 ms🎄 |
 | 🗓️17🗓️ | ⛄[/day17/src/part1.rs](/day17/src/part1.rs)⛄ | 🎁[/day17/src/part2.rs](/day17/src/part2.rs)🎁 | ❄️278.14 µs❄️ | 🎄267.12 µs🎄 |
+| 🗓️18🗓️ | ⛄[/day18/src/part1.rs](/day18/src/part1.rs)⛄ | 🎁[/day18/src/part2.rs](/day18/src/part2.rs)🎁 | ❄️322.84 µs❄️ | 🎄660.05 ms🎄 |
 
 ## Template
 
