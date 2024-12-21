@@ -1,0 +1,15 @@
+[package]
+name = "day21"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lazy_static = "*"
+itertools = "0.10.5"
+
+[dev-dependencies]
+criterion = "*"
+
+[[bench]]
+name = "criterion"
+harness = false
