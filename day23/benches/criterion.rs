@@ -15,6 +15,5 @@ fn benchmark_part2(c: &mut Criterion) {
     c.bench_function("part2", |b| b.iter(|| part2::part2(black_box(&input))));
 }
 
-criterion_group!(benches, benchmark_part1);
-// criterion_group!(benches, benchmark_part1, benchmark_part2);
+criterion_group!(benches, benchmark_part1, benchmark_part2);
 criterion_main!(benches);

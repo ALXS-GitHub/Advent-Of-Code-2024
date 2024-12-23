@@ -16,7 +16,7 @@ fn main() {
     let now = Instant::now();
 
     // Read input
-    let input: Vec<String> = read_input("inputtest.txt");
+    let input: Vec<String> = read_input("input.txt");
 
     // Stop timer for reading input
     let elapsed = now.elapsed();

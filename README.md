@@ -75,9 +75,11 @@ The solutions for each day can be found in the following table. The time are bei
 | 🗓️20🗓️ | ⛄[/day20/src/part1.rs](/day20/src/part1.rs)⛄ | 🎁[/day20/src/part2.rs](/day20/src/part2.rs)🎁 | ❄️32.051 ms❄️ | 🎄~2s🎄 |
 | 🗓️21🗓️ | ⛄[/day21/src/part1.rs](/day21/src/part1.rs)⛄ | 🎁[/day21/src/part2.rs](/day21/src/part2.rs)🎁 | ❄️847.54 µs❄️ | 🎄630.58 µs🎄 |
 | 🗓️22🗓️ | ⛄[/day22/src/part1.rs](/day22/src/part1.rs)⛄ | 🎁[/day22/src/part2.rs](/day22/src/part2.rs)🎁 | ❄️33.926 ms❄️ | 🎄1.7267 s🎄 |
-| 🗓️23🗓️ | ⛄[/day23/src/part1.rs](/day23/src/part1.rs)⛄ | 🎁[/day23/src/part2.rs](/day23/src/part2.rs)🎁 | ❄️5.4577 ms❄️ | 🎄---🎄 |
+| 🗓️23🗓️ | ⛄[/day23/src/part1.rs](/day23/src/part1.rs)⛄ | 🎁[/day23/src/part2.rs](/day23/src/part2.rs)🎁 | ❄️5.4577 ms❄️ | 🎄50.630 ms🎄 |
 
-For day 23 part 2, the solution in rust is not yet available (i need to find a proper graph crate to use for this problem). However, I have solved it in python and you can find the solution here [/day23/part2.py](/day23/part2.py).
+For day 23 part 2, the solution in was first implemented in Python because i could find a proper crate to solve it in rust. The python solution can be found in the following link: [day23/part2.py](day23/part2.py).
+Then I implemented the solution from scratch in Rust using the following [algorithm](https://en.wikipedia.org/wiki/MaxCliqueDyn_algorithm).
+
 
 ## Template
 
